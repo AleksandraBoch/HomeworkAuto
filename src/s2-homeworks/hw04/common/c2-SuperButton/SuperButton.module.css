@@ -1,0 +1,83 @@
+.button {
+
+
+}
+
+.disabled {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 574px;
+    top: 1573px;
+
+    background: #004D99;
+    opacity: 0.5;
+    border-radius: 3px;
+}
+
+.secondary {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+
+
+    position: absolute;
+    width: 149px;
+    height: 30px;
+    left: 574px;
+
+
+    background: #0059B3;
+    border-radius: 3px;
+}
+
+.default {
+}
+
+.red {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 149px;
+    height: 30px;
+    left: 574px;
+    top: 1519px;
+
+    background: #B31232;
+    border-radius: 3px;
+}
+
+.default:hover {
+}
+
+.red:hover {
+}
+
+.secondary:hover {
+}
+
+
+.default:active {
+}
+
+.secondary:active {
+}
+
+.red:active {
+}
+
+.button:disabled {
+}
